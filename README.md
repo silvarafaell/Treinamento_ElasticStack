@@ -11,11 +11,11 @@ Curso Treinamento ElasticStack no nextwave(LuisDEV)
   - Beats: Agentes de coletas de dados de propósito único que podem enviar informações de centenas ou milhares de máquinas para o Logstash ou para o Elasticsearch.
 
 ### Elasticsearch
- -  Bancodedadosnãorelacional e orientado a documentos (JSON)
- -  Armazena /busca/analisa grandes volumes quase que em tempo real
- -  Denovo:Éextremamente rápido
- -  Escalável horizontalmente[
- -   APIRest
+ - Banco dedados não relacional e orientado a documentos (JSON)
+ - Armazena /busca/analisa grandes volumes quase que em tempo real
+ - Denovo: É extremamente rápido
+ - Escalável horizontalmente[
+ - APIRest
  
 ### Queries no Elasticsearch
  - Querystring
@@ -29,4 +29,29 @@ Curso Treinamento ElasticStack no nextwave(LuisDEV)
 
 ### Criando um documento - POST
  - Também pode ser utilizado o POST (método de atualização)
- -  Caso não seja informado um ID, o elasticsearch fica responsável pela geração
+ - Caso não seja informado um ID, o elasticsearch fica responsável pela geração
+ 
+ ### Atualizando documentos
+ - O JSON enviado no POST substituirá o documento existente no índice
+ - No exemplo abaixo, os campos titulo e categoria seriam modificados e o campo autor seria excluído do documento
+
+### Atualização parcial de documentos
+ - Utilizar a API _update, conforme exemplo abaixo
+
+### Exclusão de documentos
+ - DELETEblogs/_doc/1
+ - Se DELETE blogs for executado sem passar type e id, o índice inteiro éexcluído    
+
+### Tipos de queries no Elasticsearch
+ - Match
+ - MatchPhrase
+ - MatchPhrase Prefix
+ - Wildcard
+ - Range
+ - Fuzzy
+ - Nested
+ - Combinando Queries
+ - Paginação
+ - Highlight
+ - Aggregations
+
