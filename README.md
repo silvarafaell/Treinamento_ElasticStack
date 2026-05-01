@@ -22,9 +22,9 @@ Curso Treinamento ElasticStack no nextwave(LuisDEV)
    - Podeserusado diretamente na URL
    - Simples efácil de usar
    - Difícil de escrever queries complexas
- -  QueryDSL(domain specific language)
-   - Queryenviada nocorpo darequisição REST
-   - Expõetodaacoleção deAPIs do elasticsearch
+ - QueryDSL(domain specific language)
+   - Query enviada no corpo darequisição REST
+   - Expõe toda acoleção deAPIs do elasticsearch
    - Poderoso
 
 ### Criando um documento - POST
