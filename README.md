@@ -55,3 +55,11 @@ Curso Treinamento ElasticStack no nextwave(LuisDEV)
  - Highlight
  - Aggregations
 
+### Match Query com SHOULD MATCH
+ -  Informa a quantidade mínima de termos que necessitam dar match para retornar o documento
+
+### Match Phrase
+ - Todos os termos devem dar match na ordem
+ - A frase é consideradaa partir do primeiro termo encontrado
+
+ 
