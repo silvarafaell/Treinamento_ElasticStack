@@ -95,5 +95,25 @@ Curso Treinamento ElasticStack no nextwave(LuisDEV)
  - Redução dos acessos ao banco transacional
  - Trabalhar com CQRS
 
+### Quando não utilizar o Elastic Stack
+ - Ambientes comalta escrita de dados
+ - Operações transacionais
+ - Fonte primária de armazenamento
+
+### Observabilidade - Elastic APM
+ - Monitora ocomportamento de todas aplicações de forma transparente
+ - Monitora os acessos externos das sua aplicação (SQL, Redis, Elasticsearch, APIs de terceiros)
+ - Criação de alertas com base em métricas
+ - Visão da performance e inspeção e soluções de erros
+ - Tomada de decisão de negócio
+ - Análise e inspeção de vulnerabilidades
+ - Auditoria de acessos
+ - Tempo de latência de cada rota
+ - Redução de custos
+
+### Elastic APM
+ - Log– Registro textual de eventos que ocorrem no sistema (Elastic Stack,Loki, GreyLog)
+ - Métrica– Representação numérica baseado em uma linha do tempo (ElasticStack , New Relic, Data Dog)
+ - Trace– Rastreamento de todo fluxo de uma requisição, correlação entre as requisições (Elastic Stack, Jaeger, Grafana)
 
  
