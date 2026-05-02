@@ -116,4 +116,6 @@ Curso Treinamento ElasticStack no nextwave(LuisDEV)
  - Métrica– Representação numérica baseado em uma linha do tempo (ElasticStack , New Relic, Data Dog)
  - Trace– Rastreamento de todo fluxo de uma requisição, correlação entre as requisições (Elastic Stack, Jaeger, Grafana)
 
- 
+### DEMO
+ - Package NEST do NET para o Elastic
+ - Package Serilog para colegar os logs
