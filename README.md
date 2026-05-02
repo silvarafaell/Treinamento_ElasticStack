@@ -62,4 +62,38 @@ Curso Treinamento ElasticStack no nextwave(LuisDEV)
  - Todos os termos devem dar match na ordem
  - A frase é consideradaa partir do primeiro termo encontrado
 
+### Match Phrase - Slop
+ - Flexibiliza o match_phrase
+ - Quantidade de termos que serão desconsiderados no meio de uma frase
+
+### Wildcard
+ - Retorna documentos através de wildcard patterns
+   - ? – qualquer caractere uma vez
+   - * zero ou mais caracteres
+ - Não considera relevância
+ - Evitar uso devido ao alto custo
+
+### Fuzzy
+ - Retorna documentos mesmo com termos informados incorretamente (ex: erro de digitação)
+ - E distância tolerada é de 1 caractere, podendo ser
+   - Alterando um caractere: box -> fox
+   - Removendo um caractere: black -> lack
+   - Inserindo um caractere: sic -> sick
+   - Transposição entre dois caracteres adjacentes: act -> cat
+ - Mesmo informando “primero”, a consulta retorna o documento com o título “Meu primeiro post”
+
+### Nested Query
+ - Permite quearrays de objetos sejam indexados de forma que cada elemento do array possa ser pesquisado de forma independente
+
+### Quando utilizar o Elastic Stack
+ - Consultas de texto que exijam alta velocidade
+ - Relevância de resultados
+ - Observabilidade
+ - Geolocalização
+ - Gerenciamento de logs
+ - Cruzamento de dados e BI
+ - Redução dos acessos ao banco transacional
+ - Trabalhar com CQRS
+
+
  
