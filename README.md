@@ -119,3 +119,11 @@ Curso Treinamento ElasticStack no nextwave(LuisDEV)
 ### DEMO
  - Package NEST do NET para o Elastic
  - Package Serilog para colegar os logs
+
+ ### Concluindo
+  - Pratique a segurança dos dados (Cloudflare, OWASP, WAF)
+  - Controle emonitore os acessos e permissões de usuários
+  - Configure oSonarQube noseu pipeline
+  - https://sematext.com/blog/elasticsearch-security-authentication-encryption-backup
+  - https://community.elastic.co/
+  - https://shodan.io/   Fala vulnerabilidades
